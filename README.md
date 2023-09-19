@@ -20,5 +20,5 @@ Aşağıdaki gereksinimleri sağlamalısınız:
    
 Veritabanı başarıyla oluşturulduktan sonra, proje çalıştırılabilir.
 
-##Kullanım
+## Kullanım
 Proje başarıyla çalıştırıldığında, https://localhost:7074 adresini kullanarak uygulamayı görüntüleyebilirsiniz.
