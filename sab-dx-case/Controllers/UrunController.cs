@@ -60,7 +60,7 @@ namespace sab_dx_case.Controllers
             {
                 return NotFound();
             }
-
+            
             urun.Adi = updatedUrun.Adi;
             urun.Kodu = updatedUrun.Kodu;
             urun.Fiyat = updatedUrun.Fiyat;
