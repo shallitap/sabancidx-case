@@ -15,7 +15,7 @@ Aşağıdaki gereksinimleri sağlamalısınız:
 1. Bu depoyu bilgisayarınıza klonlayın veya ZIP dosyasını indirin ve çıkarın.
 2. Visual Studio 2022'yi açın ve projeyi açmak için "File" -> "Open" -> "Project/Solution" seçeneğini kullanın.
 3. Proje açıldığında, Visual Studio içinde NuGet Package Manager'ı açın.
-4. Aşağıdaki komutu kullanarak veritabanını oluşturun:
+4. Bu komutu kullanarak veritabanını oluşturun:
    Update-Database
    
 Veritabanı başarıyla oluşturulduktan sonra, proje çalıştırılabilir.
