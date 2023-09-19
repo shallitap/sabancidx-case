@@ -21,10 +21,17 @@ namespace sab_dx_case.test
         }
 
         [Test]
-        public async Task CheckAllowedMethods()
+        public async Task GetAllUrunler_CheckNotAllowedMethods()
         {
             var response = await client.PostAsync("https://localhost:7074/api/Urun/GetAllUrunler", new StringContent(""));
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.MethodNotAllowed));
+        }
+
+        [Test]
+        public async Task GetUrunById_CheckUnvalidInputs()
+        {
+            var response = await client.PostAsync("https://localhost:7074/api/Urun/GetUrunById/a", new StringContent(""));
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.BadRequest));
         }
     }
 }
